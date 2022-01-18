@@ -77,7 +77,7 @@ alias parinst="paru -S"
 alias parrem="paru -Rsc"
 alias parup="paru -Syu"
 alias parsearch="paru -Ss"
-alias refresh-mirrors="sudo reflector -c Netherlands -a 12 --sort rate --save /etc/pacman.d/mirrorlist"
+alias refresh-mirrors="sudo reflector -c Germany -a 12 --sort rate --save /etc/pacman.d/mirrorlist"
 alias scratchterm="alacritty --config-file $HOME/.config/alacritty/scratchterm.yml -t scratchterm & disown"
 alias screen-record='wf-recorder -g "$(slurp)" -f "$HOME/Videos/$(date +%d-%m-%Y_%H-%M-%S).mp4"'
 

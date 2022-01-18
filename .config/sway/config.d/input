@@ -1,7 +1,7 @@
 input * {
-    xkb_layout "us"
+    xkb_layout "us,ru"
     xkb_variant "altgr-intl"
-    xkb_options "compose:ralt"
+    xkb_options "grp:win_space_toggle"
 }
 
 input type:touchpad {

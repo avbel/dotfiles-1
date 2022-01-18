@@ -4,13 +4,13 @@ set $down j
 set $up k
 set $right l
 
-set $browser firefox-developer-edition
+set $browser google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland
 set $filemanager thunar
 set $gnome_schema org.gnome.desktop.interface
 set $menu wofi --show run 
 set $screenshot_path $HOME/.config/sway/scripts/screenshot.sh
 set $term alacritty
-set $texteditor gedit
+set $texteditor code
 set $wallpaper $HOME/wallpaper.png
 
 set $color1 #CDDEDE
